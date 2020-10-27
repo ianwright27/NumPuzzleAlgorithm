@@ -126,13 +126,8 @@ if __name__ == "__main__":
     shape = 3  # 3x3 puzzle
     space = (shape * shape) + 1
     # variable "space" marks the space
-    puzzle = [1, 2, 3, 4, 8, 5, 7, space, 6]
-    puzzle = [1, 2, 3, 4, 5, 6, 7, space, 8]
     puzzle = [2, space,3,1,4,6,7,5,8]
-    # puzzle = [1, 3, 2, 5, space, 6, 7, 4, 8]
-    # puzzle = [2, 3, space, 5, 1, 6, 7, 4, 8]
-    # puzzle = [3,5,space,7,6,4,8,1,2]
-    # puzzle = [5,2,1,8,7,4,6, space, 3]
+    # puzzle = [5,2,1,8,7,4,6, space, 3] # debugging purposes
     # sorting score
     sorting_score = DetectPositions.check_order(puzzle)
     # highest possible score for complete game
