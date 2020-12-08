@@ -1,6 +1,6 @@
 # NumPuzzleAlgorithm
 
-Basic working summarized to:
+Basic working:
 
 ![](instruct.png)
 
